@@ -1,0 +1,16 @@
+name: mnist
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - jupyter
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - numpy
+  - seaborn
+  - scipy
